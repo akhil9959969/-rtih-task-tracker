@@ -1,0 +1,4 @@
+# Let Apache serve the React app for client-side routes (login/register).
+<IfModule mod_dir.c>
+    FallbackResource /task-tracker/index.html
+</IfModule>
